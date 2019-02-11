@@ -1,8 +1,8 @@
 import boto3
 import botocore
 
-BUCKET_NAME = 'chid-bucket' # replace with your bucket name
-FILE_NAME= 'file.txt' # replace with the your specific file that exists in your bucket
+BUCKET_NAME = 'hitesh-devops1' # replace with your bucket name
+FILE_NAME= 'AdminAllScreen.docx' # replace with the your specific file that exists in your bucket
 
 s3 = boto3.resource('s3')
 
